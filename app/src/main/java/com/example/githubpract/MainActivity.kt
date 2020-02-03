@@ -12,5 +12,7 @@ class MainActivity : AppCompatActivity() {
 
 
         Toast.makeText(this,"Mahzar Ali",Toast.LENGTH_SHORT).show()
+
+        Toast.makeText(this,"tHIS IS MY RDS COMMIT",Toast.LENGTH_SHORT).show()
     }
 }
