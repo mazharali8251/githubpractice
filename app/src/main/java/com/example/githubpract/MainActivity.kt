@@ -3,6 +3,7 @@ package com.example.githubpract
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
+import com.example.mylibrary.HelperMethod
 
 class MainActivity : AppCompatActivity() {
 
@@ -11,15 +12,31 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 
-        Toast.makeText(this,"Mahzar Ali",Toast.LENGTH_SHORT).show()
-
-        Toast.makeText(this,"tHIS IS MY RDS COMMIT",Toast.LENGTH_SHORT).show()
-        Toast.makeText(this,"tHIS IS MY RDS COMMIT",Toast.LENGTH_SHORT).show()
-        Toast.makeText(this,"tHIS IS MY RDS COMMIT",Toast.LENGTH_SHORT).show()
-        Toast.makeText(this,"tHIS IS MY RDS COMMIT",Toast.LENGTH_SHORT).show()
-        Toast.makeText(this,"tHIS IS MY RDS COMMIT",Toast.LENGTH_SHORT).show()
+       val helpermethod: HelperMethod?=null
+        Toast.makeText(this,"Name is : "+helpermethod!!.name,Toast.LENGTH_SHORT).show()
 
 
 
     }
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
