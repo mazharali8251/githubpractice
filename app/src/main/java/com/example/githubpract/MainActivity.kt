@@ -14,6 +14,7 @@ class MainActivity : AppCompatActivity() {
 
        val helpermethod: HelperMethod?=null
         Toast.makeText(this,"Name is : "+helpermethod!!.name,Toast.LENGTH_SHORT).show()
+        Toast.makeText(this,"Name is : "+helpermethod!!.name,Toast.LENGTH_SHORT).show()
 
 
 
